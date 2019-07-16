@@ -1,0 +1,12 @@
+{
+    "train_data": "../data/Train_utf16.{}",
+    "test_data": "../data/Test_utf16.{}",
+    "result_path": "../data/Result_utf16.{}",
+    "model_path": "../model/model.bin.{}",
+    "vocab_tags": "../data/vocab_tags_{}.pkl",
+    "validate_set": "../data/validate_set_{}.pkl",
+    "task_type": {
+        "seg": ["B", "M", "E", "S"],
+        "ner": ["N", "B-LOC", "I-LOC", "B-PER", "I-PER", "B-ORG", "I-ORG"]
+    }
+}

@@ -1,0 +1,6 @@
+keras
+keras-contrib
+scikit-learn
+numpy
+tqdm
+seqeval
